@@ -1,7 +1,10 @@
+// Enter input
 var firstNumber = parseInt(prompt("Enter first number:"));
 var secondNumber = parseInt(prompt("Enter second number:"));
 
-if ( !(isNaN(firstNumber)) && !(isNaN(secondNumber)) ) {
+// Check if inputs are valid
+if (!isNaN(firstNumber) && !isNaN(secondNumber)) {
+// Algorithm to find bigger number + output
   if (firstNumber > secondNumber) {
     alert(firstNumber + " is bigger then " + secondNumber + ".");
   }
@@ -13,5 +16,5 @@ if ( !(isNaN(firstNumber)) && !(isNaN(secondNumber)) ) {
   }
 }
 else {
-  alert("Error, please enter numbers only!")
+  alert("Error, please enter numbers only!");
 }
