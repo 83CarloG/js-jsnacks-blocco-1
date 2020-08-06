@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#box {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#box-red , #box-green {
+  width: 150px;
+  height: 150px;
+  border: 1px black solid;
+  margin: 10px;
+  font-size: 32px;
+  color: white;
+  text-align: center;
+  line-height: 150px;
+}
+#box-red {
+  background-color: red;
+}
+#box-green {
+  background-color: green;
+}
+
+#gioca {
+  width: 100%;
+  margin-top: 50px;
+  font-size: 32px;
+  cursor: pointer;
+}
